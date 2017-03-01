@@ -1,0 +1,16 @@
+.btn-next {
+    background:#fa24e1;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5% 0;
+    position: relative;
+    bottom:10%;
+    z-index: 20;
+}
+#map {
+    z-index:-10;
+}
+.gmnoprint {
+    
+}

@@ -1,0 +1,78 @@
+* {
+    outline: 2px solid rgba(255, 0, 0, 0.4);
+}
+.btn-next {
+    background:#1e1a8e;
+    width: 96%;
+    border: none;
+    color: #fff;
+    padding: 5% 0;
+    position: absolute;
+    bottom:0;
+    z-index: 2;
+    margin: 0 2% 0 2%;
+}
+#map {
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    z-index:1;
+}
+.mypicture {
+    z-index:2;
+    position: absolute;
+    float:left;
+    left:3%;
+    top: 2%;
+    width:10%;
+    border-radius: 100%;
+    border: solid 1px #868686;
+}
+.lyftlogo {
+    z-index:2;
+    position: absolute;
+    width: 10%;
+    left:45%;
+    top:3%;
+}
+.dropup {
+    position: absolute;
+    bottom: 9%;
+    z-index: 2;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 96%;
+}
+.glyphicon-gift {
+    z-index:2;
+    float: right;
+    position: absolute;
+    font-size: 170%;  
+    right: 3%;
+    top:2%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 100%;
+    border: solid 1px #868686;
+    color:black;
+}
+.dropup button {
+    width: 100%;
+    padding-right: 40%;
+}
+.dropup button small {
+    padding-right: 8%;
+}
+.glyphicon-chevron-up {
+    border-radius: 100%;
+    border: solid 1px black;
+    padding: 1%;
+    position: absolute;
+    left: 5%;
+    top:27%;
+}
+
+
