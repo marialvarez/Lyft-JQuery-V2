@@ -1,16 +1,136 @@
 .btn-next {
     background:#fa24e1;
-    width: 100%;
+    width: 96%;
     border: none;
     color: #fff;
     padding: 5% 0;
-    position: relative;
-    bottom:10%;
-    z-index: 20;
+    position: absolute;
+    bottom:0;
+    z-index: 2;
+    margin: 0 2%;
 }
 #map {
-    z-index:-10;
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    z-index: 1;
 }
-.gmnoprint {
-    
+.mypicture {
+    z-index:2;
+    position: absolute;
+    float:left;
+    left:3%;
+    top: 2%;
+    width:11%;
+    border-radius: 100%;
+    border: solid 1px #868686;
 }
+.lyftlogo {
+    z-index:2;
+    position: absolute;
+    width: 10%;
+    left:45%;
+    top:3%;
+}
+.mastercard {
+    width: 8%;
+    margin-right: 0;
+    display: inline;
+}
+.container-table {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    background: #F3F3F5;
+    margin: 0 2%;
+    border-radius: 5%;
+    border: solid 1px #aaaaaa;
+}
+.inline {
+    display: inline;
+}
+.lyft-car {
+    border: solid 1px black;
+}
+.row, col-xs-6, col-xs-12, col-xs-1, col-xs-11 {
+    width: 100%;
+    margin: 0;
+}
+.lyftcar {
+    width: 60%;
+    float: right;
+}
+.near {
+    padding-left: 0;
+}
+.first {
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 2%;
+}
+.second {
+    border-bottom: 1px solid #c3c3c3;
+}
+.near h4 {
+    margin-bottom: 0px;
+}
+.mastercard {
+    width: 17%;
+    display: inline;
+}
+.second h5 {
+    display: inline;
+}
+.border-right {
+    border-right: 1px solid #c3c3c3;
+}
+.pad {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.third {
+    background-color: #fff;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.third .col-xs-10 {
+    padding-right: 0;
+}
+.one {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.two {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #fa24e1;
+    border: 1px solid #fa24e1;
+    margin-left: 12px;
+}
+.direction ul {
+    list-style: none;
+    padding-top: 2%;
+    padding-left: 0;
+}
+.direction, .point {
+    padding: 0;
+}
+.from {
+    border-bottom: 1px solid #c3c3c3
+    padding-bottom: 2%;
+}
+.to {
+    padding-top: 2%;
+}
+small {
+    color: #a3a3a3;
+}
+
+

@@ -1,0 +1,19 @@
+.lyftlogo {
+    width: 60%;
+    margin-top: 1%;
+}
+.row {
+    padding-top: 10px;
+}
+.col-xs-1, .col-xs-2, .col-xs-9 {
+    padding: 0;
+    margin: 0;
+}
+.pay {
+    margin-left: 17%;
+    margin-top: 2%;
+}
+.glyphicon-option-vertical {
+    padding-left: 10%;
+    font-size: 140%;
+}
