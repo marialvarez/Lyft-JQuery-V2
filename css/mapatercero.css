@@ -1,3 +1,13 @@
+.btn-next {
+    background:#7a7a8e;
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    padding: 5% 0;
+    position: absolute;
+    bottom:0;
+    z-index: 2;
+}
 .lyftlogo {
     width: 60%;
     margin-top: 1%;
@@ -16,4 +26,51 @@
 .glyphicon-option-vertical {
     padding-left: 10%;
     font-size: 140%;
+}
+.myPicture {
+    border-radius: 100%;
+    width:30%;
+    margin: 10% auto;
+}
+.border {
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #c3c3c3;
+    border-radius: 5%;
+    margin-bottom: 10%;
+    padding: 0%;
+}
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.col-bor:hover {
+    background-color: deeppink;
+}
+.col-bor {
+    border-right: 1px solid #c3c3c3;
+}
+.glyphicon-credit-card {
+    float: left;
+    position: absolute;
+    transform: translateY(70%);
+}
+.creditcard h5 {
+    float: left;
+}
+.creditcard h6 {
+    float: right;
+}
+.price h1 {
+    display: inline;
+}
+.price i {
+    transform: translateY(-50%);
+    color: grey;
+}
+hr {
+    margin-top: 0;
 }
