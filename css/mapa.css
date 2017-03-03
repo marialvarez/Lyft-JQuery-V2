@@ -1,6 +1,6 @@
-* {
+/** {
     outline: 2px solid rgba(255, 0, 0, 0.4);
-}
+}*/
 .btn-next {
     background:#1e1a8e;
     width: 96%;
@@ -71,12 +71,36 @@
     left: 3%;
     top:27%;
 }
-.row {
+.whereto {
     margin-left: -12px;
     padding-left: 10%;
 }
-
-
-
-
+.car {
+    width: 100px;
+    margin-top: 38%;
+}
+.dropdown-menu {
+    border-radius: 2%;
+    background-color: #fff;
+    width: 220px;
+}
+.dropdown-menu h4 {
+    margin-bottom: -2px !important;
+}
+.dropdown-menu small {
+    margin: 0 auto;
+    color:#a3a3a3;
+}
+.dropdown-menu li:hover {
+    text-decoration: none;
+    color:blue !important;
+    background-color: #dddddd;
+}
+/*
+@media only screen and (min-width: 400px) {
+    .dropup {
+        bottom: 70px;
+    }
+}
+*/
 
