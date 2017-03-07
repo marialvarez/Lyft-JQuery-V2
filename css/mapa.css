@@ -1,16 +1,17 @@
-/** {
+/*
+* {
     outline: 2px solid rgba(255, 0, 0, 0.4);
-}*/
+}
+*/
 .btn-next {
     background:#1e1a8e;
-    width: 96%;
+    width:100%;
     border: none;
     color: #fff;
-    padding: 5% 0;
+    padding: 20px 0;
     position: absolute;
-    bottom:0;
+    top:9px;
     z-index: 2;
-    margin: 0 2% 0 2%;
 }
 #map {
     position: absolute;
@@ -39,7 +40,7 @@
 }
 .dropup {
     position: absolute;
-    bottom: 9%;
+    bottom: 0;
     z-index: 2;
     margin-left: 2%;
     margin-right: 2%;
