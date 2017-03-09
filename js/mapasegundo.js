@@ -1,6 +1,24 @@
+var cars =[{"nombre":"Line","image":"image/line.png","description":"Shared, 2 riders max","time":"3"},
+{"nombre":"Lyft","image":"image/lyft.png","description":"4 seats","time":"3"},
+{"nombre":"Plus","image":"image/plus.png","description":"6 seats","time":"3"},    {"nombre":"Premier","image":"image/premier.png","description":"High end, 4 seats","time":"3"}]; 
+
 function init(){
     solicitarEstimado();
     solicitarConductor();
+    
+    var carImg = $(".first").find("img").attr("src","image/lyftcar.png");
+    var carName = $(".near").find("h4");
+    var carDes = $(".near").find("small");
+    
+    var car_select = localStorage.getItem("car_select");
+    var carNombre = cars[car_select].nombre;
+    var carImage = cars[car_select].image;
+    var carDescription = cars[car_select].description;
+    
+    carImg.attr("src",carImage);
+    carName.text(carNombre);
+    carDes.text(carDescription);
+    
 }
 var map;
 
@@ -66,8 +84,7 @@ function update1(_info){
 }
 function update2(_info){
     $("#conductor-img").attr({"src":_info.conductor.url});
-    //alert(_info.destino);
-    //alert(_info.estimado.min);
+
 }
 
 

@@ -27,14 +27,14 @@
     float:left;
     left:3%;
     top: 2%;
-    width:11%;
+    width:55px;
     border-radius: 100%;
     border: solid 1px #868686;
 }
 .lyftlogo {
     z-index:2;
     position: absolute;
-    width: 10%;
+    width: 55px;
     left:45%;
     top:3%;
 }
@@ -51,10 +51,10 @@
     z-index:2;
     float: right;
     position: absolute;
-    width: 11%;
+    width: 55px;
     right: 3%;
     top:2%;
-    padding: 2%;
+    padding: 5px;
     background-color: white;
     border-radius: 100%;
     border: solid 1px #868686;
@@ -67,10 +67,10 @@
 .glyphicon-chevron-up {
     border-radius: 100%;
     border: solid 1px black;
-    padding: 1%;
+    padding: 5px;
     position: absolute;
-    left: 3%;
-    top:27%;
+    left: 5px;
+    top:20px;
 }
 .whereto {
     margin-left: -12px;
@@ -83,7 +83,7 @@
 .dropdown-menu {
     border-radius: 2%;
     background-color: #fff;
-    width: 220px;
+    width: 250px;
 }
 .dropdown-menu h4 {
     margin-bottom: -2px !important;
@@ -92,10 +92,14 @@
     margin: 0 auto;
     color:#a3a3a3;
 }
+.dropdown-menu li {
+    margin: 0;
+    padding: 5px;
+}
 .dropdown-menu li:hover {
     text-decoration: none;
     color:blue !important;
-    background-color: #dddddd;
+    background-color: #e0e0e0;
 }
 /*
 @media only screen and (min-width: 400px) {

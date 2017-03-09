@@ -26,88 +26,83 @@
         <div class="btn-group dropup"> 
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                <div class="row whereto">
-                   <div class="col-xs-2" style="height:40px">
+                   <div class="col-xs-2 col-md-1 col-sm-1" style="height:40px">
                         <span class="glyphicon glyphicon-chevron-up"></span>
                    </div>
-                   <div class="col-xs-10">
+                   <div class="col-xs-10 col-md-11 col-sm-11">
                         <span class="sr-only">Toggle Dropdown</span>
-               2300 Harrison St <br><small>Pick Up Location</small> 
+                        <h4 id="currentPos">Ubicación Actual</h4>
+                        <small>Pick Up Location</small> 
                    </div>
                </div>
                
                                   
             </button>
-            <ul class="dropdown-menu" role="menu">
+            <ul id="list-cars" class="dropdown-menu btn-default" role="menu">
+            <!--
                 <li>
-                   <a href="#">
-                       <div class="row">
-                           <div class="col-xs-3">
-                               <img class="img-responsive car" src="image/car.png" alt="">
+                    <div class="row">
+                        <div class="col-xs-3">
+                           <img class="img-responsive car" src="image/car.png" alt="">
                            </div>
-                           <div class="col-xs-7">
-                               <h4>Line</h4>
-                               <small>Shared, 2 rides max</small>
-                           </div>
-                           <div class="col-xs-2">
-                               <h4>3</h4>
-                               <small>min</small>
-                           </div>
-                       </div>
-                   </a>
+                        <div class="col-xs-7">
+                            <h4>Line</h4>
+                            <small>Shared, 2 rides max</small>
+                        </div>
+                        <div class="col-xs-2">
+                            <h4>3</h4>
+                            <small>min</small>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <a href="#">
-                       <div class="row">
-                           <div class="col-xs-3">
-                               <img class="img-responsive car" src="image/car.png" alt="">
-                           </div>
-                           <div class="col-xs-7">
-                               <h4>Lyft</h4>
-                               <small>4 seats</small>
-                           </div>
-                           <div class="col-xs-2 text-center">
-                               <h4>3</h4>
-                               <small>min</small>
-                           </div>
-                       </div>
-                   </a>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img class="img-responsive car" src="image/car.png" alt="">
+                        </div>
+                        <div class="col-xs-7">
+                            <h4>Lyft</h4>
+                            <small>4 seats</small>
+                        </div>
+                        <div class="col-xs-2 text-center">
+                            <h4>3</h4>
+                            <small>min</small>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <a href="#">
-                       <div class="row">
-                           <div class="col-xs-3">
-                               <img class="img-responsive car" src="image/car.png" alt="">
-                           </div>
-                           <div class="col-xs-7">
-                               <h4>Plus</h4>
-                               <small>6 seats</small>
-                           </div>
-                           <div class="col-xs-2">
-                               <h4>3</h4>
-                               <small>min</small>
-                           </div>
-                       </div>
-                   </a>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img class="img-responsive car" src="image/car.png" alt="">
+                        </div>
+                        <div class="col-xs-7">
+                            <h4>Plus</h4>
+                            <small>6 seats</small>
+                        </div>
+                        <div class="col-xs-2">
+                            <h4>3</h4>
+                            <small>min</small>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                   <a href="#">
-                       <div class="row">
-                           <div class="col-xs-3">
-                               <img class="img-responsive car" src="image/car.png" alt="">
+                    <div class="row">
+                        <div class="col-xs-3">
+                        <img class="img-responsive car" src="image/car.png" alt="">
                            </div>
-                           <div class="col-xs-7">
-                               <h4>Premier</h4>
-                               <small>High-end, 4 seats</small>
-                           </div>
-                           <div class="col-xs-2">
-                               <h4>3</h4>
-                               <small>min</small>
-                           </div>
-                       </div>
-                   </a>
+                        <div class="col-xs-7">
+                            <h4>Premier</h4>
+                            <small>High-end, 4 seats</small>
+                        </div>
+                        <div class="col-xs-2">
+                            <h4>3</h4>
+                            <small>min</small>
+                        </div>
+                    </div>
                 </li>
+            -->
             </ul>
-            <a type="button" href= "mapasegundo.html" class="btn btn-next">Set Pickup</a> 
+            <a type="button" class="btn btn-next">Set Pickup</a> 
         </div>  
     </section>      
    
@@ -117,6 +112,7 @@
         async deser></script>
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
 </body>
 </html>
 
