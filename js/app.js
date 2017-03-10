@@ -16,8 +16,6 @@ function init(){
     }
     
     solicitarLugar();
-    var button = $(".btn-next");
-    button.click(validateButton);
 }
 
 function createList() {
@@ -95,10 +93,6 @@ function update1(_info){
     $("#currentPos").text(_info.origen);
 }
 
-function validateButton() {
-    
-    location.href="mapasegundo.html";
-}
        
 
 
